@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import 'react-native-get-random-values';
+import { v4 as uuidv4 } from 'uuid';
 
 export default function App() {
   return (
